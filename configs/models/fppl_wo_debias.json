@@ -1,0 +1,25 @@
+{
+    "model": "fppl_wo_debias",
+    "backbone": "vit_base_patch16_224_fppl",
+    
+    "init_lr": 0.001,
+    "weight_decay": 0,
+    "server_init_lr": 0.001,
+    "server_weight_decay": 0,
+    "server_tuned_epoch": 5,
+    "min_lr": 1e-5,
+    "optimizer": "adam",
+    "scheduler": "constant",
+    "reinit_optimizer": true,
+
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0,
+
+    "infoNCET": 0.2,
+    "lamda": 1,
+
+    "freeze": ["backbone"],
+
+    "wo_debias": true
+}
