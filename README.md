@@ -4,9 +4,9 @@
   <img src="./images/overview.png" width="800px">
 </p>
 
-## 1. Introduction
+## Introduction
 
-This repository contains the official source code for the paper FPPL: An Efficient and Non-IID Robust Federated Continual Learning Framework.
+This repository contains the official source code for the paper [FPPL: An Efficient and Non-IID Robust Federated Continual Learning Framework](https://arxiv.org/abs/2411.01904).
 
 ## Requirements
 
