@@ -7,6 +7,12 @@
 ## Introduction
 
 This repository contains the official source code for the paper [FPPL: An Efficient and Non-IID Robust Federated Continual Learning Framework](https://arxiv.org/abs/2411.01904).
+@article{he2024fppl,
+  title   = {FPPL: An Efficient and Non-IID Robust Federated Continual Learning Framework},
+  author  = {Yuchen He and Chuyun Shen and Xiangfeng Wang and Bo Jin},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2411.01904}
+}
 
 ## Requirements
 
