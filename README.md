@@ -74,6 +74,32 @@ python src/main_fcl.py --dataset imagenetr_T20_beta5e-1 --model fppl_wo_debias -
 python src/main_fcl.py --dataset cifar100_T10_NONIID_cprompt_setting --model fppl_cprompt_setting --device 0
 ```
 
+## Metrics
+
+Run the `results_processor.py` script after completing a specific experiment.
+
+```bash
+python results_processor.py --dataset [DATASET] --model [MODEL]
+```
+
+### Examples:
+
+```bash
+python results_processor.py --dataset imagenetr_T20_beta5e-1 --model fppl
+```
+
+---
+
+```bash
+python results_processor.py --dataset imagenetr_T20_beta5e-1 --model fppl_wo_debias
+```
+
+---
+
+```bash
+python results_processor.py --dataset cifar100_T10_NONIID_cprompt_setting --model fppl_cprompt_setting
+```
+
 ## Acknowledgments
 
 This repo is heavily based on [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT) and [MarsFL](https://github.com/WenkeHuang/MarsFL), many thanks.
