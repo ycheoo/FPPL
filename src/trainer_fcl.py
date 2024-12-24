@@ -215,7 +215,6 @@ def visualization(clients_data, args):
     plt.ylabel("Client ID")
     plt.xlabel("Number of Samples")
     plt.savefig(os.path.join(args.log_dir, "visualization.png"))
-    plt.show()
 
 
 def set_random(seed):

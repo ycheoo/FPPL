@@ -1,5 +1,4 @@
 {
-    "dataset": "imagenetr_T20_beta5e-1_K40",
     "batch_size": 128,
     "tuned_epoch": 5,
     "communication_epoch": 200,

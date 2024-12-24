@@ -1,12 +1,11 @@
-import re
-import os
-import csv
-import shutil
-import numpy as np
-
-import json
 import argparse
+import csv
+import json
+import os
+import re
+import shutil
 
+import numpy as np
 from src.utils.conf import log_path, result_path
 
 meta_source_dir = f"{log_path()}/sync"

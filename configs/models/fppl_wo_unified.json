@@ -1,5 +1,4 @@
 {
-    "model": "fppl_wo_unified",
     "backbone": "vit_base_patch16_224_fppl",
     
     "init_lr": 0.001,

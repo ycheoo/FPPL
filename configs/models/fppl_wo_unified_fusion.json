@@ -20,5 +20,6 @@
 
     "freeze": ["backbone"],
 
-    "wo_pool": true
+    "wo_unified": true,
+    "wo_fusion": true
 }

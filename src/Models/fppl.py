@@ -122,7 +122,7 @@ class Learner(BaseLearner):
 
                 loss_CE = F.cross_entropy(logits, targets.long())
 
-                if len(global_protos) == 0:
+                if len(global_protos) == 0 or self.args.wo_unified:
                     loss_InfoNCE = 0 * loss_CE
                 else:
                     count = 0

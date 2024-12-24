@@ -1,5 +1,4 @@
 {
-    "dataset": "cub_T20_beta1",
     "batch_size": 128,
     "tuned_epoch": 5,
     "communication_epoch": 200,
